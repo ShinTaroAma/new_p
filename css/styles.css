@@ -49,21 +49,29 @@ justify-content: center;
     
     -webkit-box-shadow: 5px 5px 15px 5px #000000; 
     box-shadow: 5px 5px 15px 5px #000000;
-    box-sizing: content-box;
-    float: left;
-    margin-left: 300px;
-    height: 720px;
-    width: 500px;
+    height: auto;
+    width: 720px;
 }
 
 .aw {
     -webkit-box-shadow: 5px 5px 15px 5px #000000; 
     box-shadow: 5px 5px 15px 5px #000000;
-    box-sizing: content-box;
-    margin-left: 800pt;
-    height: 720px;
-    width: 500px;
+    
+    height: auto;
+    width: 720px;
+}
+.Flex {
+    display: flex;
+    justify-content: center;
+    
 }
 
+.Flex div {
+    margin: 10px;
+}
 
+.img {
+    width: 100%;
+    max-height: 400px;
+}
 
