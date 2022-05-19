@@ -1,0 +1,23 @@
+.head {
+  width: 960px;
+  height: auto;
+}
+.foot {
+  width: 960px;
+  height: auto;
+}
+.one {
+  width: 520px;
+  height: auto;
+  float: left;
+}
+.two {
+  width: 200px;
+  height: auto;
+  float: left;
+}
+.tree {
+  width: 200px;
+  height: auto;
+  float: left;
+}

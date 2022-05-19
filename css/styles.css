@@ -1,77 +1,74 @@
 @font-face {
-    font-family: Playfair;
-    src: url(./fonts/static/PlayfairDisplay-Regular.ttf);
+  font-family: Playfair;
+  src: url(./fonts/static/PlayfairDisplay-Regular.ttf);
 }
 
 html {
-    font-family: Playfair;
+  font-family: Playfair;
 }
 
 .menu {
-display: flex;
-background-color: bisque;
-justify-content: center;
+  display: flex;
+  background-color: bisque;
+  justify-content: center;
 }
 
 .ss {
-    color: crimson;
+  color: crimson;
 }
 
 .punkt {
-    padding-left: 20px;
+  padding-left: 20px;
 }
 
 .ss:hover {
-    color: green;
+  color: green;
 }
 
 .at {
-    
-    -webkit-box-shadow: 5px 5px 15px 5px #000000; 
-    box-shadow: 5px 5px 15px 5px #000000;
-    box-sizing: content-box;
-    margin-left: 580pt;
-    height: 530px;
-    width: 350px;
+  -webkit-box-shadow: 5px 5px 15px 5px #000000;
+  box-shadow: 5px 5px 15px 5px #000000;
+  box-sizing: content-box;
+  margin-left: 580pt;
+  height: 530px;
+  width: 350px;
 }
 
-.q,.w,.e {
-    margin-left: 40px;
-    
+.q,
+.w,
+.e {
+  margin-left: 40px;
 }
 
-.qq,.ww,.ee {
-    margin-left: 40px;
-    
+.qq,
+.ww,
+.ee {
+  margin-left: 40px;
 }
 .as {
-    
-    
-    -webkit-box-shadow: 5px 5px 15px 5px #000000; 
-    box-shadow: 5px 5px 15px 5px #000000;
-    height: auto;
-    width: 720px;
+  -webkit-box-shadow: 5px 5px 15px 5px #000000;
+  box-shadow: 5px 5px 15px 5px #000000;
+  height: auto;
+  width: 720px;
 }
 
 .aw {
-    -webkit-box-shadow: 5px 5px 15px 5px #000000; 
-    box-shadow: 5px 5px 15px 5px #000000;
-    
-    height: auto;
-    width: 720px;
+  -webkit-box-shadow: 5px 5px 15px 5px #000000;
+  box-shadow: 5px 5px 15px 5px #000000;
+
+  height: auto;
+  width: 720px;
 }
 .Flex {
-    display: flex;
-    justify-content: center;
-    
+  display: flex;
+  justify-content: center;
 }
 
 .Flex div {
-    margin: 10px;
+  margin: 10px;
 }
 
 .img {
-    width: 100%;
-    max-height: 400px;
+  width: 100%;
+  max-height: 400px;
 }
-

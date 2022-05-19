@@ -1,0 +1,193 @@
+.menu {
+  display: flex;
+  justify-content: center;
+  height: 5%;
+  width: 100%;
+  background-color: bisque;
+  margin: 0%;
+  padding: 0%;
+}
+
+.punkt {
+  margin-left: 1%;
+}
+.punkt :hover {
+  background-color: chartreuse;
+}
+.spisok li {
+  color: #0e1116;
+}
+
+.spisok :nth-child(3n) {
+  background-color: #0d5d56;
+}
+.spisok :nth-child(3n + 1) {
+  background-color: #88292f;
+}
+.spisok :nth-child(3n + 2) {
+  background-color: #5db7de;
+}
+.az::before {
+  content: "\2192";
+}
+.kartinka {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("https://tipsmake.com/data1/thumbs/how-to-extract-img-files-in-windows-10-thumb-bzxI4IDgg.jpg");
+  background-size: cover;
+}
+
+.mom {
+  position: relative;
+  display: flex;
+  height: 400px;
+  width: 400px;
+  background-color: #424242;
+  flex-wrap: wrap;
+}
+.dot {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+}
+.dot1 {
+  left: 0;
+  top: 0;
+  background-color: #0d5d56;
+}
+.dot2 {
+  left: 50%;
+  top: 0;
+  transform: translateX(-50%);
+  background-color: #5db7de;
+}
+.dot3 {
+  right: 0;
+  top: 0;
+  background-color: aqua;
+}
+.dot4 {
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: blueviolet;
+}
+.dot5 {
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: cyan;
+}
+.dot6 {
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: tomato;
+}
+.dot7 {
+  left: 0;
+  bottom: 0;
+  background-color: yellow;
+}
+.dot8 {
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  background-color: yellowgreen;
+}
+.dot9 {
+  right: 0;
+  bottom: 0;
+  background-color: violet;
+}
+
+#container {
+  margin: 0 auto;
+}
+
+p {
+  text-align: center;
+}
+
+nav {
+  margin: 50px 0;
+  background-color: #e64a19;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  position: relative;
+}
+
+nav ul li {
+  display: inline-block;
+  background-color: #e64a19;
+}
+
+nav a {
+  display: block;
+  padding: 0 10px;
+  color: #fff;
+  font-size: 20px;
+  line-height: 60px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #000000;
+}
+
+/* Hide Dropdowns by Default */
+nav ul ul {
+  display: none;
+  position: absolute;
+  top: 60px; /* the height of the main nav */
+}
+
+/* Display Dropdowns on Hover */
+nav ul li:hover > ul {
+  display: inherit;
+}
+
+/* Fisrt Tier Dropdown */
+nav ul ul li {
+  width: 170px;
+  float: none;
+  display: list-item;
+  position: relative;
+}
+
+/* Second, Third and more Tiers	*/
+nav ul ul ul li {
+  position: relative;
+  top: -60px;
+  left: 170px;
+}
+
+/* Change this in order to change the Dropdown symbol */
+li > a:after {
+  content: " +";
+}
+li > a:only-child:after {
+  content: "";
+}
+
+.gall {
+  display: flexbox;
+  position: relative;
+  height: 400px;
+  width: 400px;
+  background-color: #424242;
+  flex-direction: row;
+  border-radius: 10px;
+}
+.slot {
+  margin: 15px;
+  border-radius: 10px;
+}
+.slot:hover {
+  box-shadow: 5px 5px 15px 5px #ffe61c;
+}

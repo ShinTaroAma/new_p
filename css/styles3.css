@@ -1,0 +1,84 @@
+.wrapper {
+  display: flex;
+  width: 600px;
+  height: 900px;
+  background-color: darksalmon;
+  margin-left: 35%;
+  justify-content: center;
+}
+
+.fotka {
+  width: 300px;
+  height: 400px;
+  padding: 6px;
+  transition: all 0.2s;
+}
+.fotka:hover {
+  box-shadow: 5px 5px 15px 5px #ffe61c;
+  transform: rotate(5deg);
+}
+
+.anketa {
+  text-align: center;
+  border: 1px solid black;
+  height: 630px;
+}
+.bio {
+  width: 300px;
+  text-align: center;
+}
+.like {
+  background-color: black;
+  color: azure;
+  width: 50px;
+  height: 30px;
+  margin-bottom: 6px;
+  transition: all 0.2s;
+}
+.like:hover {
+  background-color: hotpink;
+  height: 25px;
+  width: 200px;
+}
+.flex_title:hover {
+  font-size: calc(215%);
+  color: rgb(204, 15, 109);
+}
+.flex_title {
+  transition: color 0.3s;
+  transition: font-size 0.2s;
+}
+.api {
+  display: flex;
+  width: 500px;
+  height: 500px;
+  flex-direction: column;
+  background-color: rgb(244, 173, 253);
+  border: 1px solid black;
+}
+.Name {
+  width: 300px;
+  height: 30px;
+  margin-left: 20%;
+  margin-top: 15%;
+}
+.Second_Name {
+  width: 300px;
+  height: 30px;
+  margin-left: 20%;
+  margin-top: 10px;
+}
+.Text {
+  width: 300px;
+  height: 200px;
+  margin-left: 20%;
+  margin-top: 10px;
+  text-align: top;
+}
+.Send {
+  height: 40px;
+  width: 80px;
+  background-color: indianred;
+  margin-left: 45%;
+  margin-top: 10px;
+}
